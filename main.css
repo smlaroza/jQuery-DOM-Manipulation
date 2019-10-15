@@ -1,0 +1,47 @@
+html {
+    box-sizing:border-box;
+}
+*, *::before, *::after {box-sizing:inherit;}
+
+body {
+    font-family:"Helvetica Nueue", sans-serif;
+  
+}
+
+li {
+    background: rgba(91,204,221);
+    color:white;
+    font-size:20px;
+    list-style: none;
+    cursor:pointer;
+    height:50px;
+    width:500px;
+    padding: 10px;
+    display:flex;
+    align-items:center;
+    padding: 20px;
+
+}
+li:hover {
+    background: rgba(96,215,233);
+
+}
+.content p{
+    padding: 20px;
+    color:gray;
+}
+
+.content {
+    width:500px;
+    border:1px solid rgba(91,204,221);
+    height:0px;
+    font-size:15px;
+    overflow:hidden;
+    transition: height 1s;
+    
+
+}
+
+.expand{
+    height:165px;
+}
